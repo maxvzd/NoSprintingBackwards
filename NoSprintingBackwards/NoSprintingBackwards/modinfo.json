@@ -1,14 +1,14 @@
 {
     "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
     "type": "Code",
-    "modid": "nosprintingbackwards",
-    "name": "NoSprintingBackwards",
+    "modid": "nobackwardssprinting",
+    "name": "NoBackwardsSprinting",
     "authors": [
-        "Unknown"
+        "MaxVZD"
     ],
-    "description": "To be added",
+    "description": "Stops the player from being able to sprint backwards.",
     "version": "1.0.0",
     "dependencies": {
-        "game": "1.21.0"
+        "game": ""
     }
 }
