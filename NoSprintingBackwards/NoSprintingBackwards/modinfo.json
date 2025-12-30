@@ -7,7 +7,7 @@
         "MaxVZD"
     ],
     "description": "Stops the player from being able to sprint backwards.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependencies": {
         "game": ""
     }
