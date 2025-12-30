@@ -19,7 +19,7 @@ public class NoSprintingBackwardsModSystem : ModSystem
 
         var controls = player?.Entity.Controls;
 
-        if (controls is not null && (controls.Backward || (!controls.Forward && controls.Right) || (!controls.Forward && controls.Left)))
+        if (controls is not null && !controls.Forward)
         {
             controls.Sprint = false;
         }
